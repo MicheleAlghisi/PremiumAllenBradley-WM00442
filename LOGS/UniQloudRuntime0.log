@@ -1,0 +1,3 @@
+31-08-2017 21:23:29.770;WARNING   ;ClientLib;21011;QPlatform configuration file not found. Using default options.;
+31-08-2017 21:23:29.779;WARNING   ;UniQloudRuntime;30802;Disk file was not properly closed. Some data may be lost.;
+31-08-2017 21:23:29.786;WARNING   ;UniQloudRuntime;31017;Invalid context configuration: TrustStore file not found;

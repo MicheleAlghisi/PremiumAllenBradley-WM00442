@@ -1,0 +1,61 @@
+<PushAgentConfiguration>
+	<Version>1</Version>
+	<!-- <UseManualAuthenticationMode>true</UseManualAuthenticationMode> -->
+	<!-- <UniQloudRuntimeDataDirectory></UniQloudRuntimeDataDirectory> -->
+	<!-- <UniQloudRuntimeDataDirectoryHidden>false</UniQloudRuntimeDataDirectoryHidden> -->
+	<!-- <UniQloudRuntimeDataFilesHidden>false</UniQloudRuntimeDataFilesHidden> -->
+	<ManualConfigOptions>
+		<!-- <ClientID></ClientID> -->
+		<!-- <Endpoint></Endpoint> -->
+		<!-- <Password></Password> -->
+		<!-- <Protocol>mqtt</Protocol> -->
+		<!-- <Qos>0</Qos> -->
+		<!-- <Target></Target> -->
+		<!-- <TrustStoreFilePath></TrustStoreFilePath> -->
+		<!-- <ClientCertificateFilePath></ClientCertificateFilePath> -->
+		<!-- <ClientKeyFilePath></ClientKeyFilePath> -->
+		<!-- <ClientKeyPassword></ClientKeyPassword> -->
+		<!-- <UseSSL>true</UseSSL> -->
+		<!-- <Username></Username> -->
+		<!-- <UseCBS></UseCBS> -->
+		<!-- <CBSType></CBSType> -->
+		<!-- <CBSAudience></CBSAudience> -->
+		<!-- <UseWebsockets></UseWebsockets> -->
+		<!-- <WebsocketsProtocolName></WebsocketsProtocolName> -->
+		<!-- <WebsocketsRelativePath></WebsocketsRelativePath> -->
+	</ManualConfigOptions>
+	<AutomaticConfigOptions>
+		<!-- <TagsIndexRequestTimeoutMs>1000</TagsIndexRequestTimeoutMs> -->
+	</AutomaticConfigOptions>
+	<DiskQueueConfigOptions>
+		<!--<DiskQueueSizeBytes>100000000</DiskQueueSizeBytes> -->
+	</DiskQueueConfigOptions>
+	<PushConfigOptions>
+		<!-- <PushBufferFlushThresholdBytes>512</PushBufferFlushThresholdBytes> -->
+		<!-- <PushBufferSizeBytes>1048576</PushBufferSizeBytes> -->
+		<!-- <PushBufferTimeoutMs>5000</PushBufferTimeoutMs> -->
+	</PushConfigOptions>
+	<SendConfigOptions>
+		<!-- <BrokerConnectionTimeoutSeconds>20</BrokerConnectionTimeoutSeconds> -->
+		<!-- <PublishTimeoutMs>20000</PublishTimeoutMs> -->
+	</SendConfigOptions>
+	<FetchConfigOptions>
+		<!-- <FetchBufferSizeBytes>4000</FetchBufferSizeBytes> -->
+		<!-- <FetchDelayMs>200</FetchDelayMs> -->
+		<!-- <MaximumPacketPayloadBytes>4000</MaximumPacketPayloadBytes> -->
+		<!-- <PublishPeriodMs>60000</PublishPeriodMs> -->
+	</FetchConfigOptions>
+	<NetworkConfigOptions>
+		<!-- <NetworkFirstRetryTimeMs>30000</NetworkFirstRetryTimeMs> -->
+		<!-- <NetworkMaxRetryTimeMs>300000</NetworkMaxRetryTimeMs> -->
+	</NetworkConfigOptions>
+	<LoggerConfigOptions>
+		<!-- <LogLevel>warning</LogLevel> -->
+		<!-- <LogFileEnabled>true</LogFileEnabled> -->
+		<!-- <LogConsoleEnabled>true</LogConsoleEnabled> -->
+		<!-- <LogFilePath>logFile.log</LogFilePath> -->
+		<!-- <LogFileMaxRotationBytes>10000000</LogFileMaxRotationBytes> -->
+		<!-- <LogFileMaxRotations>3</LogFileMaxRotations> -->
+		<!-- <LogDateTimeFormat>%H:%M:%S.%</LogDateTimeFormat> -->
+	</LoggerConfigOptions>
+</PushAgentConfiguration>

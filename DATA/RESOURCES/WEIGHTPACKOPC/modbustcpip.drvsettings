@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DriverSettings>
+<GeneralSettings WaitTime="0" TimeOut="2000" SynchroStart="false" MinimumJobThreshold="5" DefRefreshTimeNotInUse="0" EnableCOMInterface="true" PollingTime="0" PollingTimeNotInUse="0" PriorityProtocolThread="0" BaseClassBuild="273" DriverVersion="184615946" AggregationLimit="0" DirectWriteIO="false" SetInUseStructureFields="false" SuspendTasksInError="true" szWinCEProtocolPriority="-1" ExpandGroup1="1"/>
+<Debug DebugWindow="false" MaxLogEntries="10000" LogFileName="" EnableLogFile="true" ExpandGroup2="1"/>
+<ModbusTCPSettings SingleSocket="0" ExpandSpecificGroup1="1"/>
+<JobList>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_01" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_01</Name>
+<VariableList V0="Weight_St1" V1="Time_St1" V2="Tare_St1" V3="InFlight_St1"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1502" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_02" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_02</Name>
+<VariableList V0="Weight_St2" V1="Time_St2" V2="Tare_St2" V3="InFlight_St2"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1532" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_03" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_03</Name>
+<VariableList V0="Weight_St3" V1="Time_St3" V2="Tare_St3" V3="InFlight_St3"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1562" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_04" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_04</Name>
+<VariableList V0="Weight_St4" V1="Time_St4" V2="Tare_St4" V3="InFlight_St4"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1592" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_05" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_05</Name>
+<VariableList V0="Weight_St5" V1="Time_St5" V2="Tare_St5" V3="InFlight_St5"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1622" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_06" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_06</Name>
+<VariableList V0="Weight_St6" V1="Time_St6" V2="Tare_St6" V3="InFlight_St6"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1652" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_07" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_07</Name>
+<VariableList V0="Weight_St7" V1="Time_St7" V2="Tare_St7" V3="InFlight_St7"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1682" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_08" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_08</Name>
+<VariableList V0="Weight_St8" V1="Time_St8" V2="Tare_St8" V3="InFlight_St8"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1712" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_09" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_09</Name>
+<VariableList V0="Weight_St9" V1="Time_St9" V2="Tare_St9" V3="InFlight_St9"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1742" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_10" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_10</Name>
+<VariableList V0="Weight_St10" V1="Time_St10" V2="Tare_St10" V3="InFlight_St10"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1772" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_11" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_11</Name>
+<VariableList V0="Weight_St11" V1="Time_St11" V2="Tare_St1" V3="InFlight_St11"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1802" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_12" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_12</Name>
+<VariableList V0="Weight_St12" V1="Time_St12" V2="Tare_St12" V3="InFlight_St12"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1832" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_13" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_13</Name>
+<VariableList V0="Weight_St13" V1="Time_St13" V2="Tare_St13" V3="InFlight_St13"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1862" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_14" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_14</Name>
+<VariableList V0="Weight_St14" V1="Time_St14" V2="Tare_St14" V3="InFlight_St14"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1892" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_15" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_15</Name>
+<VariableList V0="Weight_St15" V1="Time_St15" V2="Tare_St15" V3="InFlight_St15"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1922" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_16" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_16</Name>
+<VariableList V0="Weight_St16" V1="Time_St16" V2="Tare_St16" V3="InFlight_St16"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1952" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_17" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_17</Name>
+<VariableList V0="Weight_St17" V1="Time_St17" V2="Tare_St17" V3="InFlight_St17"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="1982" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_18" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_18</Name>
+<VariableList V0="Weight_St18" V1="Time_St18" V2="Tare_St18" V3="InFlight_St18"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2012" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_19" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_19</Name>
+<VariableList V0="Weight_St19" V1="Time_St19" V2="Tare_St19" V3="InFlight_St19"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2042" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_20" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_20</Name>
+<VariableList V0="Weight_St20" V1="Time_St20" V2="Tare_St20" V3="InFlight_St20"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2072" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_21" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_21</Name>
+<VariableList V0="Weight_St21" V1="Time_St21" V2="Tare_St21" V3="InFlight_St21"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2102" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_22" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_22</Name>
+<VariableList V0="Weight_St22" V1="Time_St22" V2="Tare_St22" V3="InFlight_St22"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2132" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_23" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_23</Name>
+<VariableList V0="Weight_St23" V1="Time_St23" V2="Tare_St23" V3="InFlight_St23"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2162" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_24" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_24</Name>
+<VariableList V0="Weight_St24" V1="Time_St24" V2="Tare_St24" V3="InFlight_St24"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2192" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_25" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_25</Name>
+<VariableList V0="Weight_St25" V1="Time_St25" V2="Tare_St25" V3="InFlight_St25"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2222" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_26" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_26</Name>
+<VariableList V0="Weight_St26" V1="Time_St26" V2="Tare_St26" V3="InFlight_St26"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2252" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_27" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_27</Name>
+<VariableList V0="Weight_St27" V1="Time_St27" V2="Tare_St27" V3="InFlight_St27"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2282" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_28" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_28</Name>
+<VariableList V0="Weight_St28" V1="Time_St28" V2="Tare_St28" V3="InFlight_St28"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2312" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_29" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_29</Name>
+<VariableList V0="Weight_St29" V1="Time_St29" V2="Tare_St29" V3="InFlight_St29"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2342" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_30" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_30</Name>
+<VariableList V0="Weight_St30" V1="Time_St30" V2="Tare_St30" V3="InFlight_St30"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2372" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_31" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_31</Name>
+<VariableList V0="Weight_St31" V1="Time_St31" V2="Tare_St31" V3="InFlight_St31"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2402" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_32" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_32</Name>
+<VariableList V0="Weight_St32" V1="Time_St32" V2="Tare_St32" V3="InFlight_St32"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2432" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_33" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_33</Name>
+<VariableList V0="Weight_St33" V1="Time_St33" V2="Tare_St33" V3="InFlight_St33"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2462" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_34" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_34</Name>
+<VariableList V0="Weight_St34" V1="Time_St34" V2="Tare_St34" V3="InFlight_St34"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2492" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_35" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_35</Name>
+<VariableList V0="Weight_St35" V1="Time_St35" V2="Tare_St35" V3="InFlight_St35"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2522" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_36" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_36</Name>
+<VariableList V0="Weight_St36" V1="Time_St36" V2="Tare_St36" V3="InFlight_St36"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2552" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_37" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_37</Name>
+<VariableList V0="Weight_St37" V1="Time_St37" V2="Tare_St37" V3="InFlight_St37"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2582" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_38" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_38</Name>
+<VariableList V0="Weight_St38" V1="Time_St38" V2="Tare_St38" V3="InFlight_St38"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2612" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_39" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_39</Name>
+<VariableList V0="Weight_St39" V1="Time_St39" V2="Tare_St39" V3="InFlight_St39"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2642" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_40" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_40</Name>
+<VariableList V0="Weight_St40" V1="Time_St40" V2="Tare_St40" V3="InFlight_St40"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2672" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_41" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_41</Name>
+<VariableList V0="Weight_St41" V1="Time_St41" V2="Tare_St41" V3="InFlight_St41"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2702" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_42" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_42</Name>
+<VariableList V0="Weight_St42" V1="Time_St42" V2="Tare_St42" V3="InFlight_St42"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2732" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_43" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_43</Name>
+<VariableList V0="Weight_St43" V1="Time_St43" V2="Tare_St43" V3="InFlight_St43"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2762" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="Default Station" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="StartCommTask_44" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">Task_St_44</Name>
+<VariableList V0="Weight_St44" V1="Time_St44" V2="Tare_St44" V3="InFlight_St44"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="2792" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="ElectronicCapper" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="RealTorqueDataReady1" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">EC_TorqueMonitor_1</Name>
+<VariableList V0="RealTorqueCapHead_1" V1="RealTorqueCapHead_2" V2="RealTorqueCapHead_3" V3="RealTorqueCapHead_4" V4="RealTorqueCapHead_5"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="38147" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+<Job>
+<Name Type="1" Station="ElectronicCapper" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="RealTorqueDataReady2" SwapByte="true" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">EC_TorqueMonitor_2</Name>
+<VariableList V0="RealTorqueCapHead_6" V1="RealTorqueCapHead_7" V2="RealTorqueCapHead_8" V3="RealTorqueCapHead_9" V4="RealTorqueCapHead_10"/>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="38157" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="1"/>
+</Job>
+</JobList>
+<StationList>
+<Station>
+<Name MaxRetries="1" StateVariable="EC_CommStatus" ExpandGroup1="1">ElectronicCapper</Name>
+<Server ServerAddress="10.20.110.46" ServerPort="502" BackupServerAddress="" SwitchServerTimeout="10000" LocalBoundAddress="" LocalBoundPort="0" UsePing="true" ExpandTcpGroup1="1"/>
+<Queue MaxReceive="1024" MaxSend="1024" ExpandTcpGroup2="1"/>
+<Timeouts RxTimeout="5000" TxTimeout="5000" ExpandTcpGroup3="1"/>
+<RASSettings PhoneBookEntry="" PhoneNumber="" UserName=" " Password=" " Retries="3" DisconnectAfterSecs="10" EnableRASCallOnThisStation="false" PromptForConnection="false" RetryAfterSecs="30" DialOnlyOnCommand="false" ExpandRasGroup1="1"/>
+</Station>
+<Station>
+<Name MaxRetries="0" StateVariable="WeighingSystemCommStatus" ExpandGroup1="1">Default Station</Name>
+<Server ServerAddress="10.20.110.45" ServerPort="502" BackupServerAddress="" SwitchServerTimeout="1000" LocalBoundAddress="" LocalBoundPort="0" UsePing="true" ExpandTcpGroup1="1"/>
+<Queue MaxReceive="1024" MaxSend="1024" ExpandTcpGroup2="1"/>
+<Timeouts RxTimeout="5000" TxTimeout="5000" ExpandTcpGroup3="1"/>
+<RASSettings PhoneBookEntry="" PhoneNumber="" UserName=" " Password=" " Retries="3" DisconnectAfterSecs="10" EnableRASCallOnThisStation="false" PromptForConnection="false" RetryAfterSecs="30" DialOnlyOnCommand="false" ExpandRasGroup1="1"/>
+</Station>
+<Station>
+<Name MaxRetries="1" StateVariable="PD_EC_CommStatus" ExpandGroup1="1">PD_ElectronicCapper</Name>
+<Server ServerAddress="" ServerPort="502" BackupServerAddress="" SwitchServerTimeout="10000" LocalBoundAddress="" LocalBoundPort="0" UsePing="false" ExpandTcpGroup1="1"/>
+<Queue MaxReceive="1024" MaxSend="1024" ExpandTcpGroup2="0"/>
+<Timeouts RxTimeout="5000" TxTimeout="5000" ExpandTcpGroup3="0"/>
+<RASSettings PhoneBookEntry="" PhoneNumber="" UserName=" " Password=" " Retries="3" DisconnectAfterSecs="10" EnableRASCallOnThisStation="false" PromptForConnection="false" RetryAfterSecs="30" DialOnlyOnCommand="false" ExpandRasGroup1="0"/>
+</Station>
+</StationList>
+</DriverSettings>

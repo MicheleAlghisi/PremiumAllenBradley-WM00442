@@ -1,0 +1,23 @@
+(1024)
+Username Weightpack
+Password wp2931wp
+
+Amministratori (1023)
+Username WM00433
+Password 0433
+
+Clienti (5)
+Username ADMIN
+Password 9876
+
+Manutentori (3)
+Username MANU
+Password 5790
+
+Operatori (1)
+Username OPER
+Password 3579
+
+Operatori Senior (2)
+Username SUPEROP
+Password 1357
